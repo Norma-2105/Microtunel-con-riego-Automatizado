@@ -4,7 +4,7 @@ body {
   background-color: #e0f2e0; /* verde claro de fondo */
      background: linear-gradient( rgba(5, 7, 12, 0.75),
      rgba(5, 7, 12, 0.75)),
-      url(imagenes/riego18.jpg) no-repeat center center fixed;
+      url(riego18.jpg) no-repeat center center fixed;
      background-size: cover;
      
 }
