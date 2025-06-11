@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #e0f2e0; /* verde claro de fondo */
+     background: linear-gradient( rgba(5, 7, 12, 0.75),
+     rgba(5, 7, 12, 0.75)),
+      url(imagenes/riego18.jpg) no-repeat center center fixed;
+     background-size: cover;
+     
+}
+
+nav {
+
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  
+}
+
+nav a {
+  
+  background-color: #f0f0f0; 
+  color: white;
+  text-decoration: none;
+  color: #2e7d32; 
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s;
+  
+}
+
+nav a:hover {
+  background-color: #81c784; 
+  
+  border-radius: 5px;
+}
+
+.active {
+  background-color: #2e7d32; 
+  color: white;
+  border-radius: 5px;
+}
+
+.icono {
+  margin-right: 8px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(100px,1fr));
+    grid-template-rows: repeat(10, minmax(50px,1fr));
+    gap: 2px;
+    color:black;
+    
+
+}
+.encabezado{
+    grid-column-start: 1;
+    grid-column-end: 12;   
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+     grid-template-columns: repeat(6, minmax(50px,1fr));
+    grid-template-rows: 1fr;
+     text-align: justify;
+     color: w;
+}
+.cuerpo{
+display: flex;
+    align-items:center;
+    justify-content: center; 
+    height: 100vh; 
+    text-align: justify;
+    flex-direction: column;
+       color:whitesmoke;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 25;
+}
+
+h3{
+    background-color: brown;
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+
+
+}
+h1{
+   display: flex;
+    align-items:center;
+    justify-content: center; 
+
+   background-color: rgb(133, 224, 22);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.derecho{
+  text-align: justify;  
+}
+.abajo{
+     
+    text-align: justify;
+}
+.abajo1{
+      
+     
+    text-align: justify;
+  
+  
+}
+.contenedor2{
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill,300px);
+    grid-auto-rows: 300px;
+
+ 
+}
+.item{
+    border-radius: 10px;
+    text-align: center;
+}
+.tarjeta{
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+    box-shadow: 0 10px 10px #98a2bc;
+}
+.h1{
+    background-color: #2e7d32;
+}
+.Con{
+        
+    text-align: justify;
+}
+.contenedor4{
+    text-align: justify;
+    
+}
+
+.cuerpo,
+.cuerpo h1,
+.cuerpo h2,
+.cuerpo h3,
+.cuerpo p,
+.cuerpo a,
+.cuerpo div {
+    color: rgb(255, 255, 255);
+   
+
+}
+
+
+
